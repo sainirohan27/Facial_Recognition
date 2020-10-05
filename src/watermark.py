@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-
+#this is a watermark code
 from utils import CFEVideoConf, image_resize
 
 cap = cv2.VideoCapture(0)
