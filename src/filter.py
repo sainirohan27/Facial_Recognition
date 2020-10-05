@@ -5,6 +5,7 @@ from utils import CFEVideoConf, image_resize
 import glob
 import math
 
+#this is a filter code
 
 cap = cv2.VideoCapture(0)
 
