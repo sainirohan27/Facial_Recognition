@@ -37,7 +37,7 @@ while datetime.datetime.now() < finish_time:
     if cv2.waitKey(20) & 0xFF == ord('q'):
         break
 
-
+#Function to convert image into vedio format.
 def images_to_video(out, image_dir, clear_images=True):
     image_list = glob.glob(f"{image_dir}/*.jpg")
     sorted_images = sorted(image_list, key=os.path.getmtime)
