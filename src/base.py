@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-
+#this is a base code
 cap = cv2.VideoCapture(0)
 
 while(True):
